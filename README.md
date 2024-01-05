@@ -20,3 +20,7 @@ In the text below you can watch, how this program works.
 ###  Step #5 of the project. Saving name of the user and game "Even".
 
 [![asciicast](https://asciinema.org/a/0WlHchBUS0qTqS5mvHxJrDPHi.svg)](https://asciinema.org/a/0WlHchBUS0qTqS5mvHxJrDPHi)
+
+###  Step #6 of the project. Added game "Calc".
+
+[![asciicast](https://asciinema.org/a/L4tKLqPBFgiA7JAI4ey7iUaDd.svg)](https://asciinema.org/a/L4tKLqPBFgiA7JAI4ey7iUaDd)
