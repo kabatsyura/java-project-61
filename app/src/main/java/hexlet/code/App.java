@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         int numberOfGames = 3;
+        int firstGame = 2;
+        int lastGame = 6;
         Scanner game = new Scanner(System.in);
         App.intro();
         String typeOfGame = game.next();
@@ -15,7 +17,7 @@ public class App {
         if (intTypeOfGame == 1) {
             userName = Cli.greeting(game);
             game.close();
-        } else if (intTypeOfGame >= 2 && intTypeOfGame <= 6) {
+        } else if (intTypeOfGame >= firstGame && intTypeOfGame <= lastGame) {
             userName = Cli.greeting(game);
             introOfGame = Engine.chooseGame(typeOfGame);
             System.out.println(introOfGame);

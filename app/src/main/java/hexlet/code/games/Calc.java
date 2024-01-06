@@ -6,8 +6,9 @@ public class Calc {
     }
     public static QuestionAnswer getQuestionAnswer() {
         char[] operators = {'+', '-', '*'};
-        int firstNum = (int) Math.floor(Math.random() * 20);
-        int secondNum = (int) Math.floor(Math.random() * 20);
+        int rangeMax = 20;
+        int firstNum = (int) Math.floor(Math.random() * rangeMax);
+        int secondNum = (int) Math.floor(Math.random() * rangeMax);
         char operator = operators[(int) Math.floor(Math.random() * operators.length)];
         int correctAnswer = 0;
 

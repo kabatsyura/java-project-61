@@ -5,8 +5,10 @@ public class GCD {
         return "Find the greatest common divisor of given numbers.";
     }
     public static QuestionAnswer getQuestionAnswer() {
-        int firstNum = (int) Math.floor(Math.random() * 100);
-        int secondNum = (int) Math.floor(Math.random() * 50);
+        int maxOfFirstNum = 100;
+        int maxOfSecondNum = 50;
+        int firstNum = (int) Math.floor(Math.random() * maxOfFirstNum);
+        int secondNum = (int) Math.floor(Math.random() * maxOfSecondNum);
         int minNum = Math.min(firstNum, secondNum);
         int correctAnswer = 0;
 

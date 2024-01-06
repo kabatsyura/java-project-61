@@ -8,7 +8,8 @@ public class Prime {
     }
     public static QuestionAnswer getQuestionAnswer() {
         Random rand = new Random();
-        int number = rand.nextInt(2, 100);
+        int rangeMax = 100;
+        int number = rand.nextInt(2, rangeMax);
         boolean isPrime = true;
 
         for (int i = 2; i < number && isPrime; i += 1) {

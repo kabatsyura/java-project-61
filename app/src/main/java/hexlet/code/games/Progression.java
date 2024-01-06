@@ -9,9 +9,11 @@ public class Progression {
     }
     public static QuestionAnswer getQuestionAnswer() {
         Random rand = new Random();
-        int rangeOfProgression = rand.nextInt(6, 10);
-        int firstNum = rand.nextInt(1, 10);
-        int stepOfProgression = rand.nextInt(1, 10);
+        int rangeMin = 6;
+        int rangeMax = 10;
+        int rangeOfProgression = rand.nextInt(rangeMin, rangeMax);
+        int firstNum = rand.nextInt(1, rangeMax);
+        int stepOfProgression = rand.nextInt(1, rangeMax);
         int hiddenNum = rand.nextInt(2, (rangeOfProgression - 1));
         int newNumber = 0;
         int correctAnswer = 0;
