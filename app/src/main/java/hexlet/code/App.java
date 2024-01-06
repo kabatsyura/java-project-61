@@ -12,8 +12,8 @@ public class App {
                 + "2 - Even\n"
                 + "3 - Calc\n"
                 + "4 - GCD\n"
-                + "0 - Exit\n"
-                + "Your choice:");
+                + "0 - Exit");
+        System.out.print("Your choice: ");
         String typeOfGame = game.next();
         int intTypeOfGame = Integer.parseInt(typeOfGame);
         String userName = "";
