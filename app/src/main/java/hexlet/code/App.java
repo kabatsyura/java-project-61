@@ -13,6 +13,7 @@ public class App {
                 + "3 - Calc\n"
                 + "4 - GCD\n"
                 + "5 - Progression\n"
+                + "6 - Prime\n"
                 + "0 - Exit");
         System.out.print("Your choice: ");
         String typeOfGame = game.next();
@@ -26,6 +27,7 @@ public class App {
         } else if (intTypeOfGame >= 2 && intTypeOfGame <= 6) {
             userName = Cli.greeting(game);
             introOfGame = Engine.chooseGame(typeOfGame);
+            System.out.println(introOfGame);
             Engine.playGame(userName, game, typeOfGame, numberOfGames);
         } else {
             game.close();

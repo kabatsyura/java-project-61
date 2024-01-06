@@ -4,6 +4,7 @@ import hexlet.code.games.Even;
 import hexlet.code.games.Calc;
 import hexlet.code.games.GCD;
 import hexlet.code.games.Progression;
+import hexlet.code.games.Prime;
 import hexlet.code.games.QuestionAnswer;
 import java.util.Scanner;
 
@@ -14,6 +15,7 @@ public class Engine {
             case "3" -> Calc.getIntro();
             case "4" -> GCD.getIntro();
             case "5" -> Progression.getIntro();
+            case "6" -> Prime.getIntro();
             default -> "";
         };
     }
@@ -36,6 +38,9 @@ public class Engine {
                     break;
                 case "5":
                     answer = Progression.getQuestionAnswer();
+                    break;
+                case "6":
+                    answer = Prime.getQuestionAnswer();
                     break;
                 default:
                     break;
