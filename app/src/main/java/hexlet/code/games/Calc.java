@@ -27,6 +27,11 @@ public class Calc {
                 break;
         }
 
+        String question = Calc.buildQuestion(firstNum, secondNum, operator);
+        return new QuestionAnswer(question.toString(), Integer.toString(correctAnswer));
+    }
+
+    private static String buildQuestion(int firstNum, int secondNum, char operator) {
         StringBuilder question = new StringBuilder();
         question.append("Question: ");
         question.append(firstNum);
@@ -35,7 +40,7 @@ public class Calc {
         question.append(" ");
         question.append(secondNum);
         question.append("\nYour answer: ");
-//                "Question: " + firstNum + " " + operator + " " + secondNum + " \nYour answer: ";
-        return new QuestionAnswer(question.toString(), Integer.toString(correctAnswer));
+
+        return question.toString();
     }
 }
