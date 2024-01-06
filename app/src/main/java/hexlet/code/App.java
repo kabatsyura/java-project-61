@@ -11,6 +11,7 @@ public class App {
                 + "\n1 - Greet\n"
                 + "2 - Even\n"
                 + "3 - Calc\n"
+                + "4 - GCD\n"
                 + "0 - Exit\n"
                 + "Your choice:");
         String typeOfGame = game.next();

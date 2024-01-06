@@ -24,3 +24,9 @@ In the text below you can watch, how this program works.
 ###  Step #6 of the project. Added game "Calc".
 
 [![asciicast](https://asciinema.org/a/L4tKLqPBFgiA7JAI4ey7iUaDd.svg)](https://asciinema.org/a/L4tKLqPBFgiA7JAI4ey7iUaDd)
+
+###  Step #6 of the project. Added game "GCD".
+
+A simple game where you should find a bigger devider.
+
+[![asciicast](https://asciinema.org/a/DEVEIlyJcFlsIV3p3Hv1uPQ0y.svg)](https://asciinema.org/a/DEVEIlyJcFlsIV3p3Hv1uPQ0y)

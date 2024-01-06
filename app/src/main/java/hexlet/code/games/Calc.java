@@ -1,7 +1,5 @@
 package hexlet.code.games;
 
-import java.awt.*;
-
 public class Calc {
     public static String getIntro() {
         return "What is the result of the expression?";

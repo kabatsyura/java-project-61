@@ -2,6 +2,7 @@ package hexlet.code;
 
 import hexlet.code.games.Calc;
 import hexlet.code.games.Even;
+import hexlet.code.games.GCD;
 import hexlet.code.games.QuestionAnswer;
 import java.util.Scanner;
 
@@ -10,6 +11,7 @@ public class Engine {
         return switch (typeOfGame) {
             case "2" -> Even.getIntro();
             case "3" -> Calc.getIntro();
+            case "4" -> GCD.getIntro();
             default -> "";
         };
     }
@@ -26,6 +28,9 @@ public class Engine {
                     break;
                 case "3":
                     answer = Calc.getQuestionAnswer();
+                    break;
+                case "4":
+                    answer = GCD.getQuestionAnswer();
                     break;
                 default:
                     break;
