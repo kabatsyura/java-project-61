@@ -25,8 +25,10 @@ In the text below you can watch, how this program works.
 
 [![asciicast](https://asciinema.org/a/L4tKLqPBFgiA7JAI4ey7iUaDd.svg)](https://asciinema.org/a/L4tKLqPBFgiA7JAI4ey7iUaDd)
 
-###  Step #6 of the project. Added game "GCD".
-
-A simple game where you should find a bigger devider.
+###  Step #7 of the project. Added game "GCD".
 
 [![asciicast](https://asciinema.org/a/DEVEIlyJcFlsIV3p3Hv1uPQ0y.svg)](https://asciinema.org/a/DEVEIlyJcFlsIV3p3Hv1uPQ0y)
+
+###  Step #8 of the project. Added game "Progression".
+
+[![asciicast](https://asciinema.org/a/25Bgw7CcMxAr78sVfCiMa9RV5.svg)](https://asciinema.org/a/25Bgw7CcMxAr78sVfCiMa9RV5)
