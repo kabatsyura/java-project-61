@@ -6,15 +6,7 @@ public class App {
     public static void main(String[] args) {
         int numberOfGames = 3;
         Scanner game = new Scanner(System.in);
-        System.out.println("Please enter the game number and press Enter."
-                + "\n1 - Greet\n"
-                + "2 - Even\n"
-                + "3 - Calc\n"
-                + "4 - GCD\n"
-                + "5 - Progression\n"
-                + "6 - Prime\n"
-                + "0 - Exit");
-        System.out.print("Your choice: ");
+        App.intro();
         String typeOfGame = game.next();
         int intTypeOfGame = Integer.parseInt(typeOfGame);
         String userName = "";
@@ -31,5 +23,17 @@ public class App {
         } else {
             game.close();
         }
+    }
+
+    private static void intro() {
+        System.out.println("Please enter the game number and press Enter."
+                + "\n1 - Greet\n"
+                + "2 - Even\n"
+                + "3 - Calc\n"
+                + "4 - GCD\n"
+                + "5 - Progression\n"
+                + "6 - Prime\n"
+                + "0 - Exit");
+        System.out.print("Your choice: ");
     }
 }
