@@ -1,5 +1,7 @@
 package hexlet.code.games;
 
+import java.awt.*;
+
 public class Calc {
     public static String getIntro() {
         return "What is the result of the expression?";
@@ -25,7 +27,15 @@ public class Calc {
                 break;
         }
 
-        String question = "Question: " + firstNum + " " + operator + " " + secondNum + " \nYour answer: ";
-        return new QuestionAnswer(question, Integer.toString(correctAnswer));
+        StringBuilder question = new StringBuilder();
+        question.append("Question: ");
+        question.append(firstNum);
+        question.append(" ");
+        question.append(operator);
+        question.append(" ");
+        question.append(secondNum);
+        question.append("\nYour answer: ");
+//                "Question: " + firstNum + " " + operator + " " + secondNum + " \nYour answer: ";
+        return new QuestionAnswer(question.toString(), Integer.toString(correctAnswer));
     }
 }
