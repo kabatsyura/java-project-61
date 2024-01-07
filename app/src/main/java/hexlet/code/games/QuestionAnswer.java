@@ -4,9 +4,9 @@ public final class QuestionAnswer {
     private String question;
     private String correctAnswer;
 
-    QuestionAnswer(String question, String correctAnswer) {
-        this.question = question;
-        this.correctAnswer = correctAnswer;
+    QuestionAnswer(String setQuestion, String setCorrectAnswer) {
+        this.question = setQuestion;
+        this.correctAnswer = setCorrectAnswer;
     }
 
     public String getQuestion() {

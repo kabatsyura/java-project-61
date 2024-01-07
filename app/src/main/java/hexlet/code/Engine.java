@@ -28,19 +28,19 @@ public class Engine {
         while (isAnswerCorrect && indexOfGames < countOfGames) {
             switch (typeOfGame) {
                 case "2":
-                    answer = Even.getQuestionAnswer(20);
+                    answer = Even.getQuestionAnswer();
                     break;
                 case "3":
-                    answer = Calc.getQuestionAnswer(20);
+                    answer = Calc.getQuestionAnswer();
                     break;
                 case "4":
-                    answer = GCD.getQuestionAnswer(100, 50);
+                    answer = GCD.getQuestionAnswer();
                     break;
                 case "5":
-                    answer = Progression.getQuestionAnswer(6, 10);
+                    answer = Progression.getQuestionAnswer();
                     break;
                 case "6":
-                    answer = Prime.getQuestionAnswer(100);
+                    answer = Prime.getQuestionAnswer();
                     break;
                 default:
                     break;

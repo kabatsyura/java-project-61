@@ -4,7 +4,8 @@ public class Calc {
     public static String getIntro() {
         return "What is the result of the expression?";
     }
-    public static QuestionAnswer getQuestionAnswer(int rangeMax) {
+    public static QuestionAnswer getQuestionAnswer() {
+        final int rangeMax = 20;
         char[] operators = {'+', '-', '*'};
         int firstNum = (int) Math.floor(Math.random() * rangeMax);
         int secondNum = (int) Math.floor(Math.random() * rangeMax);

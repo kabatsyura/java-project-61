@@ -4,7 +4,9 @@ public class GCD {
     public static String getIntro() {
         return "Find the greatest common divisor of given numbers.";
     }
-    public static QuestionAnswer getQuestionAnswer(int maxOfFirstNum, int maxOfSecondNum) {
+    public static QuestionAnswer getQuestionAnswer() {
+        final int maxOfFirstNum = 100;
+        final int maxOfSecondNum = 50;
         int firstNum = (int) Math.floor(Math.random() * maxOfFirstNum);
         int secondNum = (int) Math.floor(Math.random() * maxOfSecondNum);
         int minNum = Math.min(firstNum, secondNum);

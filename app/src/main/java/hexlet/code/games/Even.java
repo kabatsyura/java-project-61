@@ -4,7 +4,8 @@ public class Even {
     public static String getIntro() {
         return "Answer 'yes' if the number is even, otherwise answer 'no'.";
     }
-    public static QuestionAnswer getQuestionAnswer(int rangeMax) {
+    public static QuestionAnswer getQuestionAnswer() {
+        final int rangeMax = 20;
         int number = (int) Math.floor(Math.random() * rangeMax);
         String correctAnswer = (number % 2 == 0) ? "yes" : "no";
         String question = Even.buildQuestion(number);
