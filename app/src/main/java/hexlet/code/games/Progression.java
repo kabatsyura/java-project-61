@@ -7,10 +7,8 @@ public class Progression {
     public static String getIntro() {
         return "What number is missing in the progression?";
     }
-    public static QuestionAnswer getQuestionAnswer() {
+    public static QuestionAnswer getQuestionAnswer(int rangeMin, int rangeMax) {
         Random rand = new Random();
-        int rangeMin = 6;
-        int rangeMax = 10;
         int rangeOfProgression = rand.nextInt(rangeMin, rangeMax);
         int firstNum = rand.nextInt(1, rangeMax);
         int stepOfProgression = rand.nextInt(1, rangeMax);

@@ -6,9 +6,8 @@ public class Prime {
     public static String getIntro() {
         return "Answer 'yes' if given number is prime. Otherwise answer 'no'.";
     }
-    public static QuestionAnswer getQuestionAnswer() {
+    public static QuestionAnswer getQuestionAnswer(int rangeMax) {
         Random rand = new Random();
-        int rangeMax = 100;
         int number = rand.nextInt(2, rangeMax);
         boolean isPrime = true;
 
