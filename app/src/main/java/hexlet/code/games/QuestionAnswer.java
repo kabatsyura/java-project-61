@@ -1,6 +1,6 @@
 package hexlet.code.games;
 
-public class QuestionAnswer {
+public final class QuestionAnswer {
     private String question;
     private String correctAnswer;
 
@@ -17,11 +17,11 @@ public class QuestionAnswer {
         return correctAnswer;
     }
 
-    public void setQuestion(String question) {
-        this.question = question;
-    }
-
-    public void setCorrectAnswer(String correctAnswer) {
-        this.correctAnswer = correctAnswer;
-    }
+//    public void setQuestion(String question) {
+//        this.question = question;
+//    }
+//
+//    public void setCorrectAnswer(String correctAnswer) {
+//        this.correctAnswer = correctAnswer;
+//    }
 }
