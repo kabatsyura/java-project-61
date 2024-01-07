@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        int numberOfGames = 3;
-        int firstGame = 2;
-        int lastGame = 6;
+        final int numberOfGames = 3;
+        final int firstGame = 2;
+        final int lastGame = 6;
         Scanner game = new Scanner(System.in);
         App.intro();
         String typeOfGame = game.next();

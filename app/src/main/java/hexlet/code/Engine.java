@@ -59,7 +59,7 @@ public class Engine {
                 isAnswerCorrect = false;
             }
         }
-        if (indexOfGames == 3) {
+        if (indexOfGames == countOfGames) {
             System.out.println("Congratulations, " + userName + "!");
         }
         game.close();
